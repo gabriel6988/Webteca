@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `Webteca`.`Leitores` (
   `Nome_Leitor` VARCHAR(45) NOT NULL,
   `Email_Leitor` VARCHAR(45) NOT NULL,
   `Senha_Leitor` VARCHAR(45) NOT NULL,
-  `Método de Pagamento` VARCHAR(45) NOT NULL,
+  `Metodo_de_Pagamento` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`ID_Leitor`),
   UNIQUE INDEX `ID_Leitor_UNIQUE` (`ID_Leitor` ASC) VISIBLE)
 ENGINE = InnoDB;
